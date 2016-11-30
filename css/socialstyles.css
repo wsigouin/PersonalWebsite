@@ -1,0 +1,59 @@
+.socialbox{
+  box-sizing: border-box;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  font-size: 22px;
+  border-color: black;
+  border-style: solid;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  margin-top: 0;
+  padding: 10px;
+}
+.socialmain{
+  display: flex;
+  align-items: center;
+  flex-direction:row;
+  justify-content:space-between;
+  height: 900px;
+  width: 95%;
+  margin: 0 auto;
+}
+.socialleft{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width:45%;
+
+}
+.socialright{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width:45%;
+}
+
+.sociallogo{
+  max-width: 100px;
+  max-height: 100px;
+  padding: 25px;
+}
+#linkedinlogo{
+  max-width: 125px;
+  max-height: 125px;
+}
+.middlesocial{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 900px;
+  padding-left: 25px;
+  width: 98%;
+}

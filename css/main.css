@@ -3,7 +3,26 @@ body{
   margin: 0;
   font-family: 'Josefin Sans', sans-serif;
 }
-
+.center{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  vertical-align: middle;
+  height: 100%;
+  width: 90%;
+  border-radius: 50px;
+  font-size: 22px;
+  border-color: black;
+  border-style: solid;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
 #logo{
   height: 35px;
   width: 65px;
@@ -109,7 +128,19 @@ li a:hover{
   border-color: black;
   border-style: solid;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-
+}
+.bmain{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding-left: 25px;
+  width: 100%;
+}
+.heading{
+  padding-top: 0px;
+  font-size: 30px;
 }
 @keyframes grow{
   0%   {height: 0px; width: 0px;}
